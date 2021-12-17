@@ -1,0 +1,16 @@
+﻿==========================================================================
+======================= CLINIC SPIRIT ALPHA CHANGELOG ====================
+==========================================================================
+
+V 0.0.5
+- Inicio do desenvolvimento do módulo de chat dentro do sistema, já sendo possível enviar e receber mensagens. Falta possibilidade de quantidade de mensagens não lidas por usuário.
+
+V 0.0.4
+- Correção no cadastro de Textos HTML, para gravar as datas TIMESTAMP no formato correto, convertendo a data JSON/JAVASCRIPT para a data string (YYYY-MM-DD HH:mm:ss).
+- Testes desenvolvidos para a página inicial, para o cadastro de textos html completo, e para a fila de espera dos laudos.
+
+V 0.0.3
+[REPORTADO] 14/04/2016 - Correção da posição em que a variável Chuncks que junta os blobs estava declarada. Deveria estar local, por isso estava sobreescrevendo ou até agrupando BLOBs de uma mesma query.
+
+V 0.0.1 / 0.0.2
+- Criação inicial
